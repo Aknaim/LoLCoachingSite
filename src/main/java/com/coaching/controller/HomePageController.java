@@ -14,10 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 public class HomePageController {
 
-
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView getHomePage(){
-        return new ModelAndView("index.html");
+        return new ModelAndView("index");
     }
 
 }
